@@ -37,7 +37,7 @@ export default function Home() {
     <div className={`${styles.containerMain} container-xxl`}>
       <div className={`${styles.containerMain}`}>
         <header className={`${styles.header}`}>
-          <h1>Bem-vindo ao TalkCall</h1>
+          <h1>Bem-vindo ao TalkCall!</h1>
         </header>
         <section className={`${styles.sectionJoin}`}>
           <Card className={`${styles.cardJoin}`}>
