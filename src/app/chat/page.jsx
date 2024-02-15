@@ -15,8 +15,10 @@ export default function Chat(){
     useEffect(() => {
         const username = localStorage.getItem('username')
 
-        const socketinit = io.connect('http://64.23.165.189:3001')
+        const socketinit = io.connect('https://talkcall-server-ij2qt.ondigitalocean.app')
         socketinit.emit('setUsername', username)
+
+        console.log(socketinit);
 
         setSocket(socketinit)
     }, [])
